@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wheel Tamyiz Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-pattern"></div>
+
+    <div class="container">
+      <h1>🎡 Wheel Tamyiz Pro</h1>
+      <button id="fullscreenBtn">⛶</button>
+      <div class="level-box">
+        <label>Pilih Kolom:</label>
+        <select id="levelSelect">
+          <option value="kolom1">Kolom 1</option>
+          <option value="kolom2_5">Kolom 2-5</option>
+          <option value="kolom6_7">Kolom 6-7</option>
+          <option value="kolom8_10">Kolom 8-10</option>
+          <option value="kolom11_12">Kolom 11-12</option>
+          <option value="kolom13">Kolom 13</option>
+          <option value="kolom14_17">Kolom 14-17</option>
+          <option value="kolom18">Kolom 18</option>
+          <option value="kolom19">Kolom 19</option>
+          <option value="kolom20">Kolom 20</option>
+          <option value="kolom21">Kolom 21</option>
+          <option value="kolom22">Kolom 22</option>
+          <option value="kolom23">Kolom 23</option>
+          <option value="kolom24">Kolom 24</option>
+          <option value="kolom25">Kolom 25</option>
+          <option value="kolom26">Kolom 26</option>
+        </select>
+      </div>
+
+      <div class="wheel-wrapper">
+        <div class="pointer"></div>
+        <canvas id="wheelCanvas" width="400" height="400"></canvas>
+      </div>
+      <div id="quizBox" class="quiz-box" style="display: none">
+        <h2 id="questionText"></h2>
+        <div id="optionsBox"></div>
+      </div>
+      <button id="spinBtn">🎡 PUTAR</button>
+
+      <div id="result"></div>
+
+      <div id="leaderboardContainer" style="display: none">
+        <h2>🏆 Leaderboard</h2>
+        <ul id="leaderboardList"></ul>
+        <button id="resetLeaderboardBtn">Reset Leaderboard</button>
+      </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -39,8 +39,7 @@ body::before {
   height: var(--vh);
   max-width: 500px;
   padding: 20px;
-    padding-top: env(safe-area-inset-top);
-
+  padding-top: env(safe-area-inset-top);
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -181,5 +180,6 @@ canvas {
   background: gold;
   color: black;
 }
+
 
 

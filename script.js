@@ -324,3 +324,12 @@ fullscreenBtn.addEventListener("click", () => {
     document.exitFullscreen();
   }
 });
+// ===== Fix 100vh Mobile Bug =====
+function setRealVh() {
+  let vh = window.innerHeight + "px";
+  document.documentElement.style.setProperty("--vh", vh);
+}
+
+setRealVh();
+window.addEventListener("resize", setRealVh);
+

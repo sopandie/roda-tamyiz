@@ -333,3 +333,8 @@ function setRealVh() {
 setRealVh();
 window.addEventListener("resize", setRealVh);
 
+
+setRealVh();
+window.addEventListener("resize", setRealVh);
+
+

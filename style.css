@@ -37,7 +37,7 @@ body::before {
 .container {
   width: 100%;
   height: var(--vh);
-  max-width: 500px;
+  max-width: 450px;
   padding: 20px;
   padding-top: env(safe-area-inset-top);
   box-sizing: border-box;
@@ -47,7 +47,7 @@ body::before {
 
 .wheel-wrapper {
   position: relative;
-  margin: 15px auto;
+  margin: 20px auto;
   width: 100%;
   max-width: 320px;
 }
@@ -66,11 +66,11 @@ canvas {
 .pointer {
   width: 0;
   height: 0;
-  border-left: 18px solid transparent;
-  border-right: 18px solid transparent;
-  border-top: 35px solid gold; /* arah ke bawah */
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid gold; /* arah ke bawah */
   position: absolute;
-  top: -5px;
+  top: -10px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -78,8 +78,8 @@ canvas {
 
 button {
   width: 100%;
-  padding: 12px;
-  margin-top: 10px;
+  padding: 10px;
+  margin-top: 5px;
   font-size: 16px;
   border: none;
   border-radius: 10px;
@@ -111,7 +111,7 @@ li {
 }
 
 .quiz-box {
-  margin-top: 10px;
+  margin-top: 2px;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -168,7 +168,7 @@ canvas {
   border-radius: 6px;
   border: none;
 
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
 
   display: flex;
@@ -180,6 +180,3 @@ canvas {
   background: gold;
   color: black;
 }
-
-
-
